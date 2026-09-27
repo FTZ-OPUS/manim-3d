@@ -3,6 +3,9 @@ name: Linux Smoke Test
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - '**.md'
+      - '.github/workflows/smoke.yml'
   workflow_dispatch:
 
 jobs:

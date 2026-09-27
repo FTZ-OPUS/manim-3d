@@ -19,8 +19,11 @@
 
 ```python
 from manim_3d import gaussian_surface_scene
-
-class GaussianSurface(gaussian_surface_scene()): pass
+class GaussianSurface(gaussian_surface_scene(
+    colors="ocean",
+    rings=True, orbit=True,
+    flip=True, duration=24,
+)): pass
 ```
 
 6 行，渲染命令照旧：`manim -qh demo.py GaussianSurface`。
