@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "manim-3d"
+version = "0.1.0"
+description = "Manim 三维几何与动画 —— 几行代码出 3D 曲面数学动画 / 3D geometry & animation presets for Manim CE"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "FTZ-OPUS" }]
+keywords = ["manim", "math", "animation", "3d", "surface", "geometry", "education"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Education",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Multimedia :: Video",
+    "Topic :: Scientific/Engineering :: Mathematics",
+]
+dependencies = [
+    "manim>=0.21",
+    "numpy>=1.24",
+]
+
+[project.urls]
+Homepage = "https://github.com/FTZ-OPUS/manim-3d"
+Repository = "https://github.com/FTZ-OPUS/manim-3d"
+
+[tool.setuptools]
+packages = ["manim_3d"]

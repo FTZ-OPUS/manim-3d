@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+media/
+dist/
+build/
+*.egg-info/
+.DS_Store
+.check/
