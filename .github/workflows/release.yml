@@ -1,0 +1,23 @@
+name: Release
+
+# Publish to PyPI when a version tag is pushed.
+# Configure PyPI Trusted Publishing for owner FTZ-OPUS, repository manim-3d,
+# workflow release.yml, and environment pypi before pushing a release tag.
+on:
+  push:
+    tags: ["v*"]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment: pypi
+    permissions:
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install --upgrade build
+      - run: python -m build
+      - uses: pypa/gh-action-pypi-publish@release/v1

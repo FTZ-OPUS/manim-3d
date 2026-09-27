@@ -50,7 +50,7 @@ class GaussianSurface(gaussian_surface_scene()): pass
 ## 安装
 
 ```bash
-pip install manim-3d          # PyPI（发布后）
+pip install manim-3d
 # 或从源码
 git clone https://github.com/FTZ-OPUS/manim-3d && pip install -e ./manim-3d
 ```
