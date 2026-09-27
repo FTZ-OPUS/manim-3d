@@ -28,9 +28,9 @@ class GaussianSurface(gaussian_surface_scene()): pass
 
 | 高斯曲面 | 马鞍面 | 抛物面 |
 |---|---|---|
-| ![](assets/demo_gaussian.gif) | ![](assets/demo_saddle.gif) | ![](assets/demo_paraboloid.gif) |
+| ![高斯曲面动画](https://raw.githubusercontent.com/FTZ-OPUS/manim-3d/main/assets/demo_gaussian.gif) | ![马鞍面动画](https://raw.githubusercontent.com/FTZ-OPUS/manim-3d/main/assets/demo_saddle.gif) | ![抛物面动画](https://raw.githubusercontent.com/FTZ-OPUS/manim-3d/main/assets/demo_paraboloid.gif) |
 | **椭球面** | **圆环面** | **单叶双曲面** |
-| ![](assets/demo_ellipsoid.gif) | ![](assets/demo_torus.gif) | 📷 见 examples |
+| ![椭球面动画](https://raw.githubusercontent.com/FTZ-OPUS/manim-3d/main/assets/demo_ellipsoid.gif) | ![圆环面动画](https://raw.githubusercontent.com/FTZ-OPUS/manim-3d/main/assets/demo_torus.gif) | [📷 查看单叶双曲面示例](https://github.com/FTZ-OPUS/manim-3d/tree/main/examples) |
 
 以上全部由本库直接渲染输出，无后期。
 
@@ -74,7 +74,7 @@ class TorusSurface(torus_surface_scene()): pass
 class Hyperboloid(hyperboloid_one_sheet_scene()): pass
 ```
 
-> 完整可运行示例见 [`examples/`](examples/)（每个曲面一个文件，含字幕版与 16 秒速览版）。
+> 完整可运行示例见 [examples 文件夹](https://github.com/FTZ-OPUS/manim-3d/tree/main/examples)（每个曲面一个文件，含字幕版与 16 秒速览版）。
 
 ### 加字幕
 
@@ -168,4 +168,4 @@ class MyEgg(ellipsoid_surface_scene(semi_axes=(2.6, 1.4, 1.8))): pass
 
 ## License
 
-[MIT](LICENSE) © FTZ-OPUS
+[MIT](https://github.com/FTZ-OPUS/manim-3d/blob/main/LICENSE) © FTZ-OPUS

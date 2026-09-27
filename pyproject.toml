@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "manim-3d"
-version = "0.1.0"
+version = "0.1.1"
 description = "Manim 三维几何与动画 —— 几行代码出 3D 曲面数学动画 / 3D geometry & animation presets for Manim CE"
 readme = "README.md"
 requires-python = ">=3.10"
