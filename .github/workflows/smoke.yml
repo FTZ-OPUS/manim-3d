@@ -1,0 +1,31 @@
+name: Linux Smoke Test
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install Linux rendering dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            libcairo2-dev libpango1.0-dev ffmpeg \
+            texlive-latex-extra texlive-fonts-recommended dvisvgm
+      - name: Install package
+        run: python -m pip install -e .
+      - name: Import package
+        run: python -c "import manim_3d; print('manim_3d', manim_3d.__version__)"
+      - name: Render a Gaussian surface on Linux
+        run: >-
+          python -m manim -ql --disable_caching
+          --media_dir /tmp/manim-3d-smoke
+          examples/demo_fast.py GaussianFast
