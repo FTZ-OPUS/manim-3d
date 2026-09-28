@@ -33,9 +33,20 @@ class GaussianSurface(gaussian_surface_scene(
 |---|---|---|
 | ![高斯曲面动画](https://raw.githubusercontent.com/FTZ-OPUS/manim-3d/main/assets/demo_gaussian.gif) | ![马鞍面动画](https://raw.githubusercontent.com/FTZ-OPUS/manim-3d/main/assets/demo_saddle.gif) | ![抛物面动画](https://raw.githubusercontent.com/FTZ-OPUS/manim-3d/main/assets/demo_paraboloid.gif) |
 | **椭球面** | **圆环面** | **单叶双曲面** |
-| ![椭球面动画](https://raw.githubusercontent.com/FTZ-OPUS/manim-3d/main/assets/demo_ellipsoid.gif) | ![圆环面动画](https://raw.githubusercontent.com/FTZ-OPUS/manim-3d/main/assets/demo_torus.gif) | [📷 查看单叶双曲面示例](https://github.com/FTZ-OPUS/manim-3d/tree/main/examples) |
+| ![椭球面动画](https://raw.githubusercontent.com/FTZ-OPUS/manim-3d/main/assets/demo_ellipsoid.gif) | ![圆环面动画](https://raw.githubusercontent.com/FTZ-OPUS/manim-3d/main/assets/demo_torus.gif) | ![单叶双曲面动画](https://raw.githubusercontent.com/FTZ-OPUS/manim-3d/main/assets/demo_hyperboloid.gif) |
 
 以上全部由本库直接渲染输出，无后期。
+
+六个 **16 秒成片**（MP4）可在 [视频样片目录](https://github.com/FTZ-OPUS/manim-3d/tree/main/examples/videos) 查看并下载；单叶双曲面 GIF 是由对应的 16 秒样片转换的预览。
+
+| 16 秒样片 | 下载 MP4 |
+|---|---|
+| 高斯曲面 | [直接下载](https://raw.githubusercontent.com/FTZ-OPUS/manim-3d/main/examples/videos/gaussian-surface-16s.mp4) |
+| 马鞍面 | [直接下载](https://raw.githubusercontent.com/FTZ-OPUS/manim-3d/main/examples/videos/saddle-surface-16s.mp4) |
+| 抛物面 | [直接下载](https://raw.githubusercontent.com/FTZ-OPUS/manim-3d/main/examples/videos/paraboloid-surface-16s.mp4) |
+| 椭球面 | [直接下载](https://raw.githubusercontent.com/FTZ-OPUS/manim-3d/main/examples/videos/ellipsoid-surface-16s.mp4) |
+| 圆环面 | [直接下载](https://raw.githubusercontent.com/FTZ-OPUS/manim-3d/main/examples/videos/torus-surface-16s.mp4) |
+| 单叶双曲面 | [直接下载](https://raw.githubusercontent.com/FTZ-OPUS/manim-3d/main/examples/videos/hyperboloid-one-sheet-16s.mp4) |
 
 ## 特性
 
