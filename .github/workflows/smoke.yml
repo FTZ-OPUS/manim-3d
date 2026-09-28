@@ -6,6 +6,8 @@ on:
     paths-ignore:
       - '**.md'
       - '.github/workflows/smoke.yml'
+      - 'assets/**'
+      - 'examples/videos/**'
   workflow_dispatch:
 
 jobs:
